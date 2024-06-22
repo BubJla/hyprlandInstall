@@ -55,7 +55,8 @@ Wofi (drun):
 
 Fastfetch:
 
-![Alt-Text](fastfetch.jpeg)
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/5b2457fe-478b-458e-bdac-485741da6fa0)
+
 
 
 
