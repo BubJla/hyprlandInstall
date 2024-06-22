@@ -14,5 +14,9 @@
  git clone https://github.com/BubJla/hyprlandInstall.git
  
  cd hyprlandInstall
+
+chmod +x ./systemStart.sh
  
  ./systemStart.sh
+
+![Alt-Text](fastfetch.jpeg)
