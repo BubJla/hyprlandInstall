@@ -72,9 +72,9 @@ if [ $? = 1 ]; then
 		get 'Install flatpak(recommended)?'
 		if [ $? = 1 ]; then
 			sudo pacman -S --noconfirm flatpak
-			flatpak install --noninteractive flathub net.waterfox.waterfox	
+			flatpak install --noninteractive flathub io.gitlab.librewolf-community
 		else 
-			yay -S --noconfirm waterfox
+			yay -S --noconfirm librewolf
 		fi
 	fi
 	get 'Install dolphin(GUI fileManager)?'
