@@ -19,4 +19,6 @@ chmod +x ./systemStart.sh
  
  ./systemStart.sh
 
+Fastfetch:
 ![Alt-Text](fastfetch.jpeg)
+
