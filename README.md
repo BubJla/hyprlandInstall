@@ -48,7 +48,6 @@ Alacritty:
 
 Wofi (drun):
 
-![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/4e502b2f-09c4-4fd3-b42c-eda3a1077eb3)
 
 
 
