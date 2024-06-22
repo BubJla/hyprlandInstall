@@ -32,6 +32,13 @@ chmod +x ./systemStart.sh
 
 
 
+Waybar:
+
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/2b74c171-8be6-444f-8bcb-9d1eade08944)
+
+
+
+
 Alacritty:
 
 ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/c9e20d36-9e30-4de1-bd38-b8664cf7febf)
@@ -59,7 +66,3 @@ Cava + dunst:
 
 
 
-
-Waybar:
-
-![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/2b74c171-8be6-444f-8bcb-9d1eade08944)
