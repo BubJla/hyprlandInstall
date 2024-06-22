@@ -22,3 +22,5 @@ chmod +x ./systemStart.sh
 Fastfetch:
 ![Alt-Text](fastfetch.jpeg)
 
+Waybar:
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/2b74c171-8be6-444f-8bcb-9d1eade08944)
