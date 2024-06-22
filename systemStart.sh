@@ -33,7 +33,7 @@ fi
 echo $aurInstalled
 get 'Install basic configuration?(hyprland with waybar, hyprpaper, ... + config files)'
 if [ $? = 1 ]; then
-	sudo pacman -S --noconfirm hyprland waybar hyprpaper alacritty neovim ranger wl-clipboard wofi polkit-gnome
+	sudo pacman -S --noconfirm hyprland waybar hyprpaper alacritty neovim ranger wl-clipboard wofi polkit-gnome grim cliphist slurp
 	get 'copy config files(recommended)?'
 	if [ $? = 1 ]; then
 		cp -r ./.config/alacritty ~/.config
@@ -97,6 +97,10 @@ if [ $? = 1 ]; then
 	get 'Install btop(hardware monitor)?'
 	if [ $? = 1 ]; then
 		sudo pacman -S --noconfirm btop
+	fi
+ 	get 'Install pavucontrol(GUI for audio-input/output)?'
+	if [ $? = 1 ]; then
+		sudo pacman -S --noconfirm pavucontrol
 	fi
 fi
 get 'reboot now'
