@@ -2,8 +2,10 @@
 aurInstalled=0
 
 function get {
+	echo
 	read -p "$1 (y/n) " -n 1 answer
 	echo
+ 	echo
 	if [ $answer = y ] || [ $answer = Y ]; then
 		return 1
 	elif [ "$answer" = "n" ] || [ $answer = N ]; then
@@ -18,7 +20,7 @@ get 'Start install?'
 if [ $? = 0 ]; then
 	exit
 fi
-get 'install yay(AUR)?'
+get 'install yay(AUR)? (n: only when already installed)'
 if [ $? = 1 ]; then
 	sudo pacman -S --noconfirm --needed base-devel git	
 	git clone https://aur.archlinux.org/yay.git
@@ -26,9 +28,6 @@ if [ $? = 1 ]; then
 	makepkg -si --noconfirm
 	cd ..
 	sudo rm -r yay
-else 
-	echo 'yay has to be installed => exit'
-	exit
 fi
 echo $aurInstalled
 get 'Install basic configuration?(hyprland with waybar, hyprpaper, ... + config files)'
