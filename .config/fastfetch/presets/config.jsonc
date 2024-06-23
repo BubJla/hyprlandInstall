@@ -36,7 +36,7 @@
         },
         {
             "type": "memory",
-            "key": "  Memory:󰑭"
+            "key": "  Memory: "
         },
         /*{
             "type": "swap",
@@ -126,7 +126,7 @@
         },*/
         {
             "type": "packages",
-            "key": "  Pkgs  :󰏖"
+            "key": "  Pkgs  : "
         },
         /*{
             "type": "uptime",
