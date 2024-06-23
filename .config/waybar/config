@@ -28,13 +28,13 @@
         "capslock": true,
         "format": "{icon} ",
         "format-icons": {
-            "locked": " ",
-            "unlocked": ""
+            "locked": "\uf023",
+            "unlocked": "\uf3c1"
         },
     },
 
     "custom/pacman": {
-        "format": "{} ",
+        "format": "{} \uf021",
         "interval": 300,                     			// every 5 minutes
         "exec": "echo $(( $(flatpak update | grep -c 'Updating') + $(pacman -Qu | wc -l) + $(yay -Qu | wc -l) ))",	// # of updates
         "exec-if": "exit 0",                  			// always run; consider advanced run conditions
@@ -44,7 +44,7 @@
     },
 
     "custom/mail": {
-        "format": "{} ",
+        "format": "{} \uf7aa",
         "exec": "$HOME/.config/waybar/scripts/checkgmail.py",
         "interval": 120,
         "on-click": "google-chrome-stable https://mail.google.com/mail/u/0/#inbox ; pkill -SIGRTMIN+9 waybar",
@@ -57,8 +57,7 @@
     },
 
     "clock": {
-	"format": "{:%A, %B %d,  %H:%M}  ",
-	"format-alt": "{:%A, %B %d,  %H:%M}  ",
+	"format": "{:%A, %B %d,  %H:%M} \uf017 ",
 	"tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
 		"mode"          : "year",
@@ -94,26 +93,26 @@
         // "scroll-step": 1, // %, can be a float
         "reverse-scrolling": 1,
         "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format-bluetooth": "{volume}% {icon}\uf294 {format_source}",
+        "format-bluetooth-muted": "\uf057 {icon}\uf294 {format_source}",
+        "format-muted": "\uf057 {icon} {format_source}",
+        "format-source": "{volume}% \uf130",
+        "format-source-muted": "\uf131",
         "format-icons": {
-            "headphone": "",
+            "headphone": "\uf025",
             "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
+            "headset": "\uf7cd",
+            "phone": "\uf095",
+            "portable": "\uf095",
+            "car": "\uf1b9",
+            "default": ["\uf026", "\uf027", "\uf027", "\uf028"]
         },
         "on-click": "pavucontrol",
         "min-length": 13,
     },
 
     "custom/mem": {
-        "format": "{} ",
+        "format": "{} \uf538",
         "interval": 3,
         "exec": "free -h | awk '/Mem:/{printf $3}'",
         "tooltip": false,
@@ -121,24 +120,24 @@
 
     "cpu": {
       "interval": 2,
-      "format": "{usage}% ",
+      "format": "{usage}% \uf2db",
       "min-length": 6
     },
 
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
+        "critical-threshold": 100,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", "", "", ""],
+        "format-icons": ["\uf2cb", "\uf2ca", "\uf2c9", "\uf2c8", "\uf2c7"],
         "tooltip": false,
     },
 
     "backlight": {
         "device": "intel_backlight",
         "format": "{percent}% {icon}",
-        "format-icons": [""],
+        "format-icons": ["\uf013"],
         "min-length": 7,
     },
 
@@ -148,10 +147,10 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format-charging": "{capacity}% \uf583",
+        "format-plugged": "{capacity}% \uf1e6",
         "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", "", ""],
+        "format-icons": ["\uf579", "\uf578", "\uf57b", "\uf57d", "\uf57e", "\uf57f", "\uf5b0", "\uf581", "\uf578"],
 	"on-update": "$HOME/.config/waybar/scripts/check_battery.sh",
     },
 
@@ -163,11 +162,11 @@
 	"format": "{player_icon} {dynamic}",
 	"format-paused": "{status_icon} <i>{dynamic}</i>",
 	"player-icons": {
-		"default": "▶",
-		"mpv": "🎵"
+		"default": "\uf04b",
+		"mpv": "\uf001"
 	},
 	"status-icons": {
-		"paused": "⏸"
+		"paused": "\uf04c"
 	},
 	"max-length": 50,
 	// "ignored-players": ["firefox"]
