@@ -66,7 +66,7 @@ if [ $? = 1 ]; then
 fi
 get 'Install useful programs(manually decide)'
 if [ $? = 1 ]; then
-	get 'Install waterfox(debloated firefox)?'
+	get 'Install librewolf(debloated firefox)?'
 	if [ $? = 1 ]; then
 		get 'Install flatpak(recommended)?'
 		if [ $? = 1 ]; then
