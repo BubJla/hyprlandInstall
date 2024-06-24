@@ -70,7 +70,7 @@ Ranger:
 
 
 
-Cava + dunst:
+Cava + dunst(top right):
 
 ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/7b81e0d3-e5a7-4f17-9c04-bc7264f1777a)
 
