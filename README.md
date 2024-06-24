@@ -29,6 +29,8 @@ chmod +x ./systemStart.sh
 
  ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/6f137e02-a3f8-452d-b377-77a8f8ec08a2)
 
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/c81419ca-3e90-4aea-97de-9742aabbbddc)
+
 
 
 
@@ -48,6 +50,7 @@ Alacritty:
 
 Wofi (drun):
 
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/4bd0edd7-bd7d-45e2-ab21-66e80fe7ce5e)
 
 
 
