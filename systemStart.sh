@@ -73,7 +73,7 @@ if [ $? = 1 ]; then
 			sudo pacman -S --noconfirm flatpak
 			flatpak install --noninteractive flathub io.gitlab.librewolf-community
 		else 
-			yay -S --noconfirm librewolf
+			yay -S --noconfirm librewolf-bin
 		fi
 	fi
 	get 'Install dolphin(GUI fileManager)?'
