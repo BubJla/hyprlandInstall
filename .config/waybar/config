@@ -92,10 +92,10 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "reverse-scrolling": 1,
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon}\uf294 {format_source}",
+        "format": "{volume}% {icon}  {format_source}",
+        "format-bluetooth": "{volume}% {icon}\uf294  {format_source}",
         "format-bluetooth-muted": "\uf057 {icon}\uf294 {format_source}",
-        "format-muted": "\uf057 {icon} {format_source}",
+        "format-muted": "\uf057 {icon}  {format_source}",
         "format-source": "{volume}% \uf130",
         "format-source-muted": "\uf131",
         "format-icons": {
