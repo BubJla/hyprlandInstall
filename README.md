@@ -44,6 +44,13 @@ Waybar:
 
 
 
+Nvim:
+
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/897817d1-2f0a-4dad-bdac-21d94f249297)
+
+
+
+
 Alacritty:
 
 ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/c9e20d36-9e30-4de1-bd38-b8664cf7febf)
