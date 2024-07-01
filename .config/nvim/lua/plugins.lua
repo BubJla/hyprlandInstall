@@ -1,4 +1,5 @@
 return {
+
   {-- Colorscheme: tokyonight
     "folke/tokyonight.nvim",
     lazy = false, -- make sure we load this during startup if it is your main colorscheme
@@ -10,7 +11,7 @@ return {
 
   {-- Nvim_tree
     "nvim-tree/nvim-tree.lua",
-    lazy = false,
+    lazy = true,
     dependencies = {
       "nvim-tree/nvim-web-devicons",
     },
@@ -28,6 +29,7 @@ return {
 
   {
     "j-hui/fidget.nvim",
+    lazy = true,
     opts = {
       -- options
     },
@@ -35,7 +37,7 @@ return {
 
   {-- nvim-web-devicons icons for nvim-tree
     "nvim-tree/nvim-web-devicons",
-    lazy = false,
+    lazy = true,
     config = function()
     end,
   },
@@ -90,6 +92,7 @@ return {
 
   {
     'nvim-telescope/telescope.nvim',
+    lazy = true,
     tag = '0.1.8',
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
@@ -106,6 +109,7 @@ return {
 
   {
     'windwp/nvim-autopairs',
+    lazy = true,
     event = "InsertEnter",
     config = true
   },
@@ -143,6 +147,7 @@ return {
 
   {
     "hrsh7th/nvim-cmp",
+    lazy = true,
     event = "InsertEnter",
     dependencies = {
       "hrsh7th/cmp-buffer",
@@ -202,6 +207,7 @@ return {
 
   {
     "neovim/nvim-lspconfig",
+    lazy = true,
     event = { "BufReadPre", "BufNewFile" },
     dependencies = {
       "hrsh7th/cmp-nvim-lsp",
