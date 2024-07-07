@@ -29,7 +29,7 @@ return {
 
   {
     "j-hui/fidget.nvim",
-    lazy = true,
+    lazy = false,
     opts = {
       -- options
     },
@@ -397,5 +397,6 @@ return {
     },
     version = '^1.0.0',
   },
+
 }
 

@@ -19,6 +19,6 @@ require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes
 	winblend = 10,
 	previewer = false,
 })
-end, {desc = '[/] Fuzzily search in current file' })
+end, {desc = 'Fuzzily search in current file' })
 
 vim.keymap.set("c", "Q", "qa")
