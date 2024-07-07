@@ -75,7 +75,8 @@ Fastfetch:
 
 Ranger:
 
-![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/6693eb44-79ae-45ea-ac44-dc93d08acc55)
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/de18f67f-05cd-447a-a9a9-ea9eb63d60cb)
+
 
 
 
