@@ -39,6 +39,7 @@ if [ $? = 1 ]; then
 		cp -r ./.config/gtk-2.0 ~/.config
 		cp -r ./.config/gtk-3.0 ~/.config
 		cp -r ./.config/hypr ~/.config
+		cp -r ./.config/wlogout ~/.config
 		cp -r ./.config/nvim ~/.config
 		cp -r ./.config/waybar ~/.config
 		cp -r ./.config/wofi ~/.config
