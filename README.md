@@ -85,6 +85,9 @@ Cava + dunst(top right):
 ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/7b81e0d3-e5a7-4f17-9c04-bc7264f1777a)
 
 
+wlogout:
+
+![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/27ec76e8-4134-41c0-bcd9-8e19aae83e97)
 
 
 
