@@ -32,7 +32,7 @@ fi
 echo $aurInstalled
 get 'Install basic configuration?(hyprland with waybar, hyprpaper, ... + config files)'
 if [ $? = 1 ]; then
-	sudo pacman -S --noconfirm hyprland waybar hyprpaper hyprlock alacritty neovim wl-clipboard wofi polkit-gnome grim cliphist slurp ttf-font-awesome ttf-firacode-nerd
+	sudo pacman -S --noconfirm hyprland waybar hyprpaper hyprlock alacritty neovim wl-clipboard wofi polkit-gnome grim cliphist slurp ttf-font-awesome ttf-firacode-nerd npm
 	get 'copy config files(recommended)?'
 	if [ $? = 1 ]; then
 		cp -r ./.config/alacritty ~/.config
