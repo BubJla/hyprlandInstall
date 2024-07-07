@@ -13,6 +13,8 @@ if status is-interactive
 	alias bluetooth 'bluetuith'
 	alias update 'flatpak update && sudo pacman -Syu && yay -Syu'
 	export EDITOR=nvim
+
+
     # Commands to run in interactive sessions can go here
 end
 set fish_greeting
