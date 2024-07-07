@@ -33,6 +33,7 @@ echo $aurInstalled
 get 'Install basic configuration?(hyprland with waybar, hyprpaper, ... + config files)'
 if [ $? = 1 ]; then
 	sudo pacman -S --noconfirm hyprland waybar hyprpaper hyprlock alacritty neovim wl-clipboard wofi polkit-gnome grim cliphist slurp ttf-font-awesome ttf-firacode-nerd npm
+ 	yay -S --noconfirm wlogout
 	get 'copy config files(recommended)?'
 	if [ $? = 1 ]; then
 		cp -r ./.config/alacritty ~/.config
@@ -75,9 +76,9 @@ if [ $? = 1 ]; then
 	if [ $? = 1 ]; then
 		yay -S --noconfirm librewolf-bin
 	fi
-	get 'Install dolphin(GUI fileManager)?'
+	get 'Install thunar(GUI fileManager)?'
 	if [ $? = 1 ]; then
-		sudo pacman -S --noconfirm dolphin
+		sudo pacman -S --noconfirm thunar
 	fi
 	get 'Install thunderbird(Email client)?'
 	if [ $? = 1 ]; then
