@@ -73,10 +73,7 @@ if [ $? = 1 ]; then
 	fi
 	get 'Install librewolf(debloated firefox)?'
 	if [ $? = 1 ]; then
-		get 'Install flatpak(recommended)?'
-		if [ $? = 1 ]; then
-			yay -S --noconfirm librewolf-bin
-		fi
+		yay -S --noconfirm librewolf-bin
 	fi
 	get 'Install dolphin(GUI fileManager)?'
 	if [ $? = 1 ]; then
