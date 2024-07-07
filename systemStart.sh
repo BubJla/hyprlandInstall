@@ -32,16 +32,14 @@ fi
 echo $aurInstalled
 get 'Install basic configuration?(hyprland with waybar, hyprpaper, ... + config files)'
 if [ $? = 1 ]; then
-	sudo pacman -S --noconfirm hyprland waybar hyprpaper alacritty neovim ranger wl-clipboard wofi polkit-gnome grim cliphist slurp ttf-font-awesome ttf-firacode-nerd
+	sudo pacman -S --noconfirm hyprland waybar hyprpaper alacritty neovim wl-clipboard wofi polkit-gnome grim cliphist slurp ttf-font-awesome ttf-firacode-nerd
 	get 'copy config files(recommended)?'
 	if [ $? = 1 ]; then
 		cp -r ./.config/alacritty ~/.config
-		cp -r ./.config/fish ~/.config
 		cp -r ./.config/gtk-2.0 ~/.config
 		cp -r ./.config/gtk-3.0 ~/.config
 		cp -r ./.config/hypr ~/.config
 		cp -r ./.config/nvim ~/.config
-		cp -r ./.config/ranger ~/.config
 		cp -r ./.config/waybar ~/.config
 		cp -r ./.config/wofi ~/.config
 	fi
@@ -51,6 +49,7 @@ if [ $? = 1 ]; then
 		chsh -s /usr/bin/fish
 		yay -S --noconfirm fastfetch
 		cp -r ./.config/fastfetch ~/.config
+		cp -r ./.config/fish ~/.config
 	fi
 
 	get 'Install ly(better greeter)?'
@@ -66,13 +65,15 @@ if [ $? = 1 ]; then
 fi
 get 'Install useful programs(manually decide)'
 if [ $? = 1 ]; then
+	get 'Install ranger(terminal file manager)?'
+	if [ $? = 1 ]; then
+		sudo pacman -S --noconfirm ranger
+		cp -r ./.config/ranger ~/.config
+	fi
 	get 'Install librewolf(debloated firefox)?'
 	if [ $? = 1 ]; then
 		get 'Install flatpak(recommended)?'
 		if [ $? = 1 ]; then
-			sudo pacman -S --noconfirm flatpak
-			flatpak install --noninteractive flathub io.gitlab.librewolf-community
-		else 
 			yay -S --noconfirm librewolf-bin
 		fi
 	fi
