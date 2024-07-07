@@ -92,10 +92,10 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "reverse-scrolling": 1,
-        "format": "{volume}% {icon}  {format_source}",
-        "format-bluetooth": "{volume}% {icon}\uf294  {format_source}",
-        "format-bluetooth-muted": "\uf057 {icon}\uf294 {format_source}",
-        "format-muted": "\uf057 {icon}  {format_source}",
+        "format": "{volume}% {icon}   {format_source}",
+        "format-bluetooth": "{volume}% {icon} \uf294 {format_source}",
+        "format-bluetooth-muted": "\uf057 {icon}  \uf294 {format_source}",
+        "format-muted": "\uf057 {icon} {format_source}",
         "format-source": "{volume}% \uf130",
         "format-source-muted": "\uf131",
         "format-icons": {
@@ -105,7 +105,7 @@
             "phone": "\uf095",
             "portable": "\uf095",
             "car": "\uf1b9",
-            "default": ["\uf026", "\uf027", "\uf027", "\uf028"]
+            "default": ["\uf026", "\uf027", "\uf027", "\uf028  "]
         },
         "on-click": "pavucontrol",
         "min-length": 13,
@@ -162,8 +162,8 @@
 	"format": "{player_icon} {dynamic}",
 	"format-paused": "{status_icon} <i>{dynamic}</i>",
 	"player-icons": {
-		"default": "\uf04b",
-		"mpv": "\uf001"
+		"default": "\uf04b  ",
+		"mpv": "\uf001  "
 	},
 	"status-icons": {
 		"paused": "\uf04c"
