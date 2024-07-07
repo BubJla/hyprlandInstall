@@ -86,3 +86,13 @@ Cava + dunst(top right):
 
 
 
+
+
+
+
+
+guide for hibernation: https://rusty-electron.github.io/blog/setting-up-hibernation-in-arch-linux.html
+for btrfs: use sudo btrfs filesystem mkswapfile --size <SIZE>g --uuid clear /swapfile/path
+
+
+Inspired by: https://gitlab.com/stephan-raabe
