@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "cpu", "temperature", "custom/mem"],
     "modules-center": ["clock"],
-    "modules-right": ["mpris", "pulseaudio"],
+    "modules-right": ["mpris", "pulseaudio", "custom/power"],
 
 
     //***************************
@@ -81,14 +81,7 @@
 		"on-scroll-down": "shift_down"
 	}
     },
-    "custom/weather": {
-        "format": "{}",
-        "tooltip": true,
-        "interval": 1800,
-        "exec": "$HOME/.config/waybar/scripts/wttr.py",
-        "return-type": "json"
-    },
-
+    
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "reverse-scrolling": 1,
@@ -170,5 +163,10 @@
 	},
 	"max-length": 50,
 	// "ignored-players": ["firefox"]
-    }
+    },
+    "custom/power": {
+	"format": "\uf011",
+        "on-click": "wlogout",
+        "tooltip": false,
+    },
 }

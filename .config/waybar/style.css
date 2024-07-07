@@ -109,9 +109,11 @@ window#waybar.hidden {
     background: #383c4a;
 }
 
-#custom-weather {
-    padding-right: 16px;
-    border-radius: 0px 10px 10px 0px;
+#custom-power {
+    padding-left: 11px;
+    padding-right: 15px;
+    margin-left: 5px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -121,6 +123,7 @@ window#waybar.hidden {
     padding-left: 13px;
     padding-right: 13px;
     margin-left: 5px;
+    margin-right: 5px;
     border-radius: 8px;
     transition: none;
     color: #ffffff;
