@@ -9,12 +9,6 @@ Great base for your own hyprland configuration
 
 Installation:
 
-1.Download: download zip and execute systemStart.sh in the terminal
-
-
- or
-
-
 1.Download: sudo pacman -S git
  
  git clone https://github.com/BubJla/hyprlandInstall.git
@@ -24,7 +18,10 @@ Installation:
 3.Make the file executable: chmod +x ./systemStart.sh
  
 4.Start installation: ./systemStart.sh
+
+or
   
+1. Download zip and execute systemStart.sh in the terminal
 
 
 
