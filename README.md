@@ -1,5 +1,8 @@
 # HyprlandInstall
- ---install script for hyprland with clean UI---
+ ---basic install script for hyprland with clean UI---
+
+Great base for your own hyprland configuration
+ 
 (only arch linux)
 
 
