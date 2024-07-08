@@ -23,7 +23,7 @@ Dependency: git (sudo pacman -S git)
 
 or
   
-1. Download zip and execute systemStart.sh in the terminal
+Download zip and execute systemStart.sh in the terminal
 
 
 
