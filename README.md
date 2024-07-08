@@ -7,6 +7,8 @@ Great base for your own hyprland configuration
  
 (only arch linux)
 
+----------------------------------------------------------
+
 Installation:
 
 Dependency: git (sudo pacman -S git)
