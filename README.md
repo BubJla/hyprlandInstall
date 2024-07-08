@@ -9,9 +9,9 @@ Great base for your own hyprland configuration
 
 Installation:
 
-1.Download: sudo pacman -S git
+Dependency: git (sudo pacman -S git)
  
- git clone https://github.com/BubJla/hyprlandInstall.git
+1. git clone https://github.com/BubJla/hyprlandInstall.git
  
 2.Go into the directory: cd hyprlandInstall
 
