@@ -11,7 +11,7 @@ Installation:
 
 Dependency: git (sudo pacman -S git)
  
-Download: git clone https://github.com/BubJla/hyprlandInstall.git
+1.Download: git clone https://github.com/BubJla/hyprlandInstall.git
  
 2.Go into the directory: cd hyprlandInstall
 
