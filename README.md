@@ -105,5 +105,9 @@ guide for hibernation: https://rusty-electron.github.io/blog/setting-up-hibernat
 
 for btrfs: use sudo btrfs filesystem mkswapfile --size <SIZE>g --uuid clear /swapfile/path
 
+Timeshift:
+
+https://wiki.archlinux.org/title/Timeshift
+
 
 Inspired by: https://gitlab.com/stephan-raabe
