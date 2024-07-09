@@ -1,6 +1,7 @@
 if status is-interactive
 	fastfetch -c ~/.config/fastfetch/presets/config.jsonc
 	alias r 'ranger'
+	alias l 'hyprctl dispatch dpms on && exit'
 	alias v 'nvim'
 	alias vim 'nvim'
 	alias c 'clear'
