@@ -29,8 +29,9 @@
     "keybind" : "e"
 }
 {
-    "label" : "hibernate",
-    "action" : "systemctl hibernate",
-    "text" : "Hibernate",
-    "keybind" : "h"
+    "label" : "screen",
+    "action" : "hyprctl dispatch dpms off",
+    "text" : "Display Off",
+    "keybind" : "d"
 }
+
