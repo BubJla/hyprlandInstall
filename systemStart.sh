@@ -16,7 +16,7 @@ function get {
 	fi
 }
 
-get 'Start install?'
+get 'Start install(may take some minutes)?'
 if [ $? = 0 ]; then
 	exit
 fi
@@ -37,8 +37,6 @@ if [ $? = 1 ]; then
 	get 'copy config files(recommended)?'
 	if [ $? = 1 ]; then
 		cp -r ./.config/alacritty ~/.config
-		cp -r ./.config/gtk-2.0 ~/.config
-		cp -r ./.config/gtk-3.0 ~/.config
 		cp -r ./.config/hypr ~/.config
 		cp -r ./.config/wlogout ~/.config
 		cp -r ./.config/nvim ~/.config
