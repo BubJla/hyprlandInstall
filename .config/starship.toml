@@ -1,0 +1,34 @@
+format = """
+[](bg:#4d586e fg:#11121D)\
+[](bg:#7a84a3 fg:#4d586e)\
+$cmd_duration\
+[](bg:#a3aed2 fg:#7a84a3)\
+[  ](bg:#a3aed2 fg:#090c0c)\
+[](bg:#668fe0 fg:#a3aed2)\
+$directory\
+[](fg:#668fe0 bg:#394260)\
+[](fg:#394260 bg:#212736)\
+[](fg:#212736 bg:#1d2230)\
+$time\
+[ ](fg:#1d2230)\
+$character"""
+
+[directory]
+style = "fg:#e3e5e5 bg:#668fe0"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[time]
+disabled = true
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
+
+
+[cmd_duration]
+min_time = 500
+format = "[$duration](bg:#7a84a3 fg:#e3e5e5)"
+
+
+
