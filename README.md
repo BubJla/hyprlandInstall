@@ -36,7 +36,8 @@ Screenshots:
 
  Complete Desktop:
 
- ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/6f137e02-a3f8-452d-b377-77a8f8ec08a2)
+![image](https://github.com/user-attachments/assets/908c4b81-ba52-46f3-82f9-e7e60180fcd0)
+
 
 ![image](https://github.com/user-attachments/assets/4b051174-631e-48f2-99d7-deeed7fca73a)
 
