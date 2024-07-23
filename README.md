@@ -38,14 +38,16 @@ Screenshots:
 
  ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/6f137e02-a3f8-452d-b377-77a8f8ec08a2)
 
-![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/c81419ca-3e90-4aea-97de-9742aabbbddc)
+![image](https://github.com/user-attachments/assets/4b051174-631e-48f2-99d7-deeed7fca73a)
+
 
 
 
 
 Waybar:
 
-![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/2b74c171-8be6-444f-8bcb-9d1eade08944)
+![image](https://github.com/user-attachments/assets/2ad88d0c-2c6f-42c5-a3c5-52701e28995c)
+
 
 
 
