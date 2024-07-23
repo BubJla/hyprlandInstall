@@ -59,7 +59,8 @@ Nvim:
 
 Alacritty:
 
-![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/c9e20d36-9e30-4de1-bd38-b8664cf7febf)
+![image](https://github.com/user-attachments/assets/db307813-f991-4ed3-b0b5-57e6a10db2e8)
+
 
 
 
