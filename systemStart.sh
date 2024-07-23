@@ -50,6 +50,8 @@ if [ $? = 1 ]; then
 		yay -S --noconfirm fastfetch
 		cp -r ./.config/fastfetch ~/.config
 		cp -r ./.config/fish ~/.config
+  		curl -sS https://starship.rs/install.sh | sh
+    		cp ./.config/starship.toml ~/.config
 	fi
 
 	get 'Install ly(better greeter)?'
