@@ -101,7 +101,7 @@ wlogout:
 ![image](https://github.com/BubJla/hyprlandInstall/assets/123741924/27ec76e8-4134-41c0-bcd9-8e19aae83e97)
 
 
-
+-------------
 
 
 
@@ -122,5 +122,6 @@ for better looking pacman and yay:
   
  (in /etc/pacman.conf  under [options])
 
+-----------
 
 Inspired by: https://gitlab.com/stephan-raabe
