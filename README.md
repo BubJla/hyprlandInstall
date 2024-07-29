@@ -113,5 +113,11 @@ Timeshift:
 
 https://wiki.archlinux.org/title/Timeshift
 
+for better looking pacman and yay: 
+ add:
+  ILoveCandy
+  Color
+ (in /etc/pacman.conf  under [options])
+
 
 Inspired by: https://gitlab.com/stephan-raabe
