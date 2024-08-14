@@ -1,13 +1,12 @@
-vim.keymap.set("n", "<c-n>", ":NvimTreeToggle<CR>")
-vim.keymap.set("n", "<c-o>", ":NvimTreeToggle<CR>")
+vim.keymap.set("n", "<c-n>", "<cmd>NvimTreeToggle<CR>")
+vim.keymap.set("n", "<c-o>", "<cmd>NvimTreeToggle<CR>")
 
 vim.api.nvim_set_keymap("v", "<Tab>", ">", { noremap = true })
 
-vim.keymap.set("n", "<a-TAB>", ":tabnew<CR>")
-vim.keymap.set("n", "<c-TAB>", ":tabnew<CR>")
-vim.keymap.set("n", "<c-w>", ":tabclose<CR>")
-vim.keymap.set("n", "<c-q>", ":tabclose<CR>")
-vim.keymap.set("n", "<TAB>", ":tabnext<CR>")
+vim.keymap.set("n", "<a-TAB>", "<cmd>tabnew<CR>")
+vim.keymap.set("n", "<c-TAB>", "<cmd>tabnew<CR>")
+vim.keymap.set("n", "<c-q>", "<cmd>tabclose<CR>")
+vim.keymap.set("n", "<TAB>", "<cmd>tabnext<CR>")
 vim.keymap.set("n", "<s-TAB>", ":tabprevious<CR>")
 
 --vim.keymap.set("n", "<a-t>", ":ToggleTerm<CR>")
@@ -22,3 +21,16 @@ require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes
 end, {desc = 'Fuzzily search in current file' })
 
 vim.keymap.set("c", "Q", "qa")
+
+
+-- Open compiler
+vim.api.nvim_set_keymap('n', '<F6>', "<cmd>CompilerOpen<cr>", { noremap = true, silent = true })
+
+-- Redo last selected option
+vim.api.nvim_set_keymap('n', '<F5>',
+     "<cmd>CompilerStop<cr>" -- (Optional, to dispose all tasks before redo)
+  .. "<cmd>CompilerRedo<cr>",
+ { noremap = true, silent = true })
+
+-- Toggle compiler results
+vim.api.nvim_set_keymap('n', '<F4>', "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
