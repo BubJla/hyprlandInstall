@@ -124,4 +124,10 @@ for better looking pacman and yay:
 
 -----------
 
+For nvim:
+
+ if compiler.nvim doesnt work make sure to install system dependencies: https://neovimcraft.com/plugin/Zeioth/compiler.nvim/#required-system-dependencies
+
+---------
+
 Inspired by: https://gitlab.com/stephan-raabe
