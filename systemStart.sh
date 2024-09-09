@@ -34,7 +34,7 @@ get 'Install basic configuration?(hyprland with waybar, hyprpaper, ... + config 
 if [ $? = 1 ]; then
 	sudo pacman -S --noconfirm hyprland waybar hyprpaper hyprlock alacritty neovim wl-clipboard wofi polkit-gnome grim cliphist slurp ttf-font-awesome ttf-firacode-nerd npm unzip
  	yay -S --noconfirm wlogout
-	get 'copy config files(recommended)?'
+	get 'copy config(recommended)?'
 	if [ $? = 1 ]; then
 		cp -r ./.config/alacritty ~/.config
 		cp -r ./.config/hypr ~/.config
@@ -42,6 +42,10 @@ if [ $? = 1 ]; then
 		cp -r ./.config/nvim ~/.config
 		cp -r ./.config/waybar ~/.config
 		cp -r ./.config/wofi ~/.config
+  		yay -S --noconfirm dracula-gtk-theme
+  		gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+		gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+
 	fi
 	get 'Install fish(better shell) + fastfetch(better neofetch)?'
 	if [ $? = 1 ]; then
