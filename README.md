@@ -103,17 +103,27 @@ wlogout:
 
 -------------
 
+if you need a qt-theme:
 
+https://draculatheme.com/qt5
+
+
+----------
 
 guide for hibernation: https://rusty-electron.github.io/blog/setting-up-hibernation-in-arch-linux.html
 
 for btrfs: use sudo btrfs filesystem mkswapfile --size <SIZE>g --uuid clear /swapfile/path
 
+-------------
+
 Timeshift:
 
 https://wiki.archlinux.org/title/Timeshift
 
+-------------
+
 for better looking pacman and yay: 
+
  add:
  
   ILoveCandy
